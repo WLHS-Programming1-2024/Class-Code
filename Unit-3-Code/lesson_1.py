@@ -1,5 +1,5 @@
 
-
+# This covers lessons 1-3 in Unit 3 of CodeHS
 
 
 def main():
