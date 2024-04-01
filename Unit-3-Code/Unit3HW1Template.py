@@ -1,11 +1,12 @@
 def sphere_volume():
-    return None
+    volume = 0
+    return volume
 
 def book_cose():
     return None
 
 def main():
-    print()
+    print(sphere_volume(6))
 
 if __name__ == '__main__':
     main()
