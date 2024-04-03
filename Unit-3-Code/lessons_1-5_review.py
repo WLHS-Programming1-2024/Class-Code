@@ -7,8 +7,8 @@ def main():
     # get pet breed
     breed = input("What is your pet's breed? ")
     
-    # get pet weight in lbs
-    weight = float(input("What is your pet's weight in pounds? "))
+    # get pet weight in kg
+    weight = float(input("What is your pet's weight in kilograms? "))
    
     # convert pet weight
     lb_weight = weight * 2.2
