@@ -12,9 +12,10 @@ def main():
    
     # convert pet weight
     lb_weight = weight * 2.2
+    rounded_weight = round(lb_weight,2)
     
     # create message to user
-    message = f"Your {breed} weighs {weight}kg or {lb_weight}lbs."
+    message = f"Your {breed} weighs {weight}kg or {rounded_weight}lbs."
    
     # print message to user
     print(message)
