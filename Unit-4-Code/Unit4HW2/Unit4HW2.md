@@ -20,6 +20,15 @@ number_classifer(5,3)
 first number is greater than the second number
 ```
 
+After thorough testing, you will get user input and use it instead
+
+```
+num_one = int(input(...))
+num_two = int(input(...))
+
+number_classifer(num_one,num_two)
+```
+
 ## Problem 2
 If you are given three sticks, you may or may not be able to arrange them in a triangle. For example, if one of the sticks is 12 inches long and the other two are 1 inch long, you will not be able to get the short sticks to meet in the middle because 12 > 1 + 1. For any three lengths, there is a simple test to see if it is possible to form a triangle:
 
