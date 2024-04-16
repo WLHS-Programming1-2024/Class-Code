@@ -2,7 +2,7 @@
 
 Starter code can be found in [Unit4HW2.py](https://github.com/WLHS-Programming1-2024/Class-Code/blob/main/Unit-4-Code/Unit4HW2/Unit4HW2.py). Please use this code to start.
 
-You must do 5 test for each function. Be sure to test a variety of numbers. Do not do user input for these tests. See the sample input.
+You must do 5 test for each function for full credit. Be sure to test a variety of numbers. Do not do user input for these tests. See the sample input.
 
 ## Problem 1
 Write a function called number_classifier that takes two numbers as parameters. The program should print the relation between the two numbers, which will be one of the following:
