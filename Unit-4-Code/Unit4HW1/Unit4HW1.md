@@ -30,9 +30,9 @@ February 18 is a special date this year.
 
 Write a program that asks the user for a numerical month and numerical day of the month and then determines whether that date occurs before, after, or on February 18.
 
-* If the date occurs before February 18, output the word Before.
-* If the date occurs after February 18, output the word After.
-* If the date is February 18, output the word Special.
+* If the date occurs before February 18, print the word Before.
+* If the date occurs after February 18, print the word After.
+* If the date is February 18, print the word Special.
 **The output is case sensitive - before is not the same as Before**
 
 You will be putting the code that does this in the function 
