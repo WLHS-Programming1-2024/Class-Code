@@ -1,6 +1,6 @@
 # Unit 4 HW 1
 
-Starter code can be found in Unit4HW1.py. Please use this code to start.
+Starter code can be found in Unit4HW1.py. Please use this code to start. You should test each function with 5 different inputs and confirm that those inputs produce the expected output
 
 ## Problem 1
 Late October can be a rather frightening time of year, in fact you could say it is spooky. But how spooky?  Its spookiness level can, in fact, be measured and represented as a single integer *n*. 
