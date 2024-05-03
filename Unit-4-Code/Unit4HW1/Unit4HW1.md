@@ -37,9 +37,9 @@ Write a program that asks the user for a numerical month and numerical day of th
 
 You will be putting the code that does this in the function 
 
-'''
+```
 def special_day(month,day):
-'''
+```
 
 ### Input Specification
 The input consists of two integers each in a separate variable. These integers represent a date in 2015.
