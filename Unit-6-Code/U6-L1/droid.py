@@ -26,3 +26,5 @@ def create_droid(name,skill,battery_level):
 
 def main():
     print_menu()
+
+main()
