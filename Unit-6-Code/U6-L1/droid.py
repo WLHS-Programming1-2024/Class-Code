@@ -26,7 +26,7 @@ def create_droid(name,skill,battery_level):
     print(f"Skill: {skill}")
     print(f"Battery Level: {battery_level}")
 
-# create print_droid_info that prints
+# create droid_info that prints
 # Name: 
 # Current battery level: 
 
