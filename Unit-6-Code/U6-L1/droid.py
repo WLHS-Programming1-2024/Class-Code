@@ -26,9 +26,22 @@ def create_droid(name,skill,battery_level):
     print(f"Skill: {skill}")
     print(f"Battery Level: {battery_level}")
 
+# create print_droid_info that prints
+# Name: 
+# Current battery level: 
+
+# create quick_charge that charges battery 5%
+# should print message saying
+# your battery was x% and is now y%
+
 
 
 def main():
-    print_menu()
+    droid_one_name = "Ann"
+    droid_one_skill = "Welding"
+    droid_one_batt_lev = 85
+    create_droid(droid_one_name,droid_one_skill,droid_one_batt_lev)
+    # droid_info(droid_one_name, droid_one_batt_level) - this is a warmup to start class
+
 
 main()
