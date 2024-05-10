@@ -21,7 +21,11 @@ def print_menu():
     """)
 
 def create_droid(name,skill,battery_level):
-    print()
+    print(f"Congratulations! You have created the following droid:")
+    print(f"Name: {name}")
+    print(f"Skill: {skill}")
+    print(f"Battery Level: {battery_level}")
+
 
 
 def main():
