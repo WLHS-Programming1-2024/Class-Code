@@ -23,7 +23,7 @@ def droid_info(name, battery_level):
 def quick_charge(current_level):
     print(f"Your battery level was {current_level}")
     print(f"Your batter level is now {current_level+5}")
-    return 5
+    return current_level + 5
 
 
 def long_charge(num_hours, current_battery_level):
