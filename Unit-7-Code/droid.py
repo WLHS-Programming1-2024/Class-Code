@@ -20,21 +20,35 @@ def print_menu():
     
     """)
 
-def create_droid():
-    
-def droid_info(:
+def create_droid(droid_info):
+    """Creates a droid
+
+    Args:
+        droid_info: a list of info [name,skill,battery_level]
+    Returns: None
+    """
+    print(f"Congratulations!")
+    print(f"You created a droid named {droid_info[0]} with a skill of {droid_info[1]} and a battery level of {droid_info[2]} ")
+
+    return None
+def droid_info():
+    return None
     
 def quick_charge():
+    return None
     
 
 def time_charge():
+    return None
     
 
 
 def main():
     print_menu()
     # droid list format is name,skill,battery_level
-    droid_one_info = []
+    droid_one_info = ["Bender","Bending",45]
+    create_droid(droid_one_info)
+
 
 if __name__ == '__main__':
     main()
