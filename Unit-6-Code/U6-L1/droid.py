@@ -43,6 +43,13 @@ def quick_charge(current_level):
     print(f"Your batter level is now {current_level+5}")
     return 5
 
+def deplete_battery(amount):
+    return amount
+    
+
+def perform_task(task,current_level):
+    if task == "Welding":
+        current_level -= deplete_battery(-10)
 
 def main():
     droid_one_name = "Ann"
@@ -51,6 +58,8 @@ def main():
     create_droid(droid_one_name,droid_one_skill,droid_one_batt_lev)
     droid_info(droid_one_name, droid_one_batt_lev)
     droid_one_batt_lev = droid_one_batt_lev + quick_charge(droid_one_batt_lev)
+    droid_info(droid_one_name, droid_one_batt_lev)
+    droid_one_batt_lev = deplete_battery(droid_one_batt_lev,droid_one_skill)
     droid_info(droid_one_name, droid_one_batt_lev)
 
 
